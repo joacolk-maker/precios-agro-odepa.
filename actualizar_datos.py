@@ -23,7 +23,7 @@ CSV_URL = (
 )
 
 # Nombre exacto de la tabla en Supabase (con espacios y mayusculas, tal cual quedo creada)
-TABLE_NAME = "Tabla Raw Odepa"
+TABLE_NAME = "precios_raw"
 
 # Credenciales: se leen desde los "Secrets" de GitHub, nunca quedan escritas en este archivo
 SUPABASE_URL = os.environ["SUPABASE_URL"]
